@@ -69,6 +69,8 @@
 - 销售趋势图中的峰值日期可进一步分析对应营销活动，作为成功经验复制。
 
 ## 文件结构
+
+```
 ecommerce_user_analysis/
 ├── README.md
 ├── learning_log.md
@@ -83,10 +85,12 @@ ecommerce_user_analysis/
 │   └── ecommerce_analysis.ipynb
 └── images/
     └── daily_revenue_trend.png
+```
+```
 
 ## 如何复现
 
-1. 从 [UCI](https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip) 下载数据集并转换为 CSV。
+1. 从kaggle下载数据集并转换为 CSV。
 2. 使用 SQLiteOnline 或本地 MySQL 导入 CSV，运行 `sql/` 下的两个 SQL 脚本，导出 CSV 文件。
 3. 将 CSV 文件放入 `data/` 目录，使用 Jupyter Notebook（或和鲸社区）打开 `notebooks/ecommerce_analysis.ipynb`，按顺序执行所有单元格。
 4. 运行后即可得到 RFM 分层结果和可视化图表。
