@@ -39,6 +39,7 @@
 - 绘制每日销售额趋势图
 
 **销售额趋势图（示例）**  
+<img width="856" height="424" alt="image" src="https://github.com/user-attachments/assets/3f3d0769-d9c3-4561-9124-bb550b5931ed" />
 
 *说明：X 轴为日期（2011‑01 至 2011‑12），Y 轴为每日总销售额（英镑）。从图中可以看出 11 月份销售额明显上升，可能存在促销活动或节日效应。*
 
@@ -69,19 +70,19 @@
 
 ## 文件结构
 ecommerce_user_analysis/
-├── README.md # 项目说明（本文件）
-├── learning_log.md # 学习日志（记录遇到的问题与解决过程）
+├── README.md
+├── learning_log.md
 ├── data/
-│ ├── daily_sales.csv # 每日销售汇总
-│ ├── user_rfm.csv # 用户 RFM 基础表
-│ └── rfm_with_scores.csv # 带 RFM 分层的完整结果
+│   ├── daily_sales.csv
+│   ├── user_rfm.csv
+│   └── rfm_with_scores.csv
 ├── sql/
-│ ├── daily_sales.sql # 每日销售汇总 SQL
-│ └── user_rfm.sql # 用户 RFM 基础表 SQL
+│   ├── daily_sales.sql
+│   └── user_rfm.sql
 ├── notebooks/
-│ └── ecommerce_analysis.ipynb # Python 分析完整代码
+│   └── ecommerce_analysis.ipynb
 └── images/
-└── daily_revenue_trend.png # 销售额趋势图截图
+    └── daily_revenue_trend.png
 
 ## 如何复现
 
